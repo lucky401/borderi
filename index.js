@@ -13,3 +13,5 @@ const borderi = (options) => {
     el.style.border = `${options.border_type} solid ${options.border_color}`;
   });
 };
+
+module.exports.borderi = borderi;
